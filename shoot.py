@@ -10,7 +10,7 @@ p.start(2.5)
 try:
     while True:
         print(5)
-        p.ChangeDutyCycle(5)
+        p.ChangeDutyCycle(2)
         time.sleep(1)
         print(10)
         p.ChangeDutyCycle(10)
